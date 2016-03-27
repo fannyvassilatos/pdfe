@@ -17,7 +17,8 @@ body {
 .Top {
     overflow: auto;
     padding: .5rem;
-    margin-top: -50px;
+    margin-top: -10px;
+    margin-bottom: 0px;
     padding-top: 100px;
     display: flex;
     align-items: center;
@@ -45,14 +46,22 @@ body {
 WebKit inertia scrolling is being added here for any present/future devices that are able to make use of it.
 */
 
+h1{
+  color:black;
+  font-size:50;
+  font-family: wigrum;
+}
+
 p{
     color:black;
-    font-size:30px;
+    font-size:25px;
+    font-family: source sans pro
 }
 
 h2{
     color:#c266ff;
-    font-size:50px;
+    font-size:40px;
+    font-family: documenta dtl regular 
 }
 
 
