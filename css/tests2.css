@@ -81,6 +81,8 @@ img.other{
     backface-visibility: hidden;
     will-change: overflow;
 }
+
+
 /*All the scrollable sections should overflow and be whatever height they need to be. As they are flex-items (due to being inside a flex container) they could be made to stretch full height at all times if needed.
 WebKit inertia scrolling is being added here for any present/future devices that are able to make use of it.
 */
@@ -108,6 +110,11 @@ h3{
     font-size:16px;
     font-family: Open Sans;
 }
+h4{
+  color:#660066;
+    font-size:12px;
+    font-family: Open Sans;
+}
 
 /*-- texte courant */
 p1{
@@ -127,7 +134,7 @@ p3{
   color:#993399;
     font-size:18px;
     font-family: pt serif;
-    text-transform: uppercase;
+    
 }
 /*-- italique */
 p4{
@@ -136,6 +143,7 @@ p4{
     font-family: pt serif ;
     font-style:italic;
 }
+
 
 
 
@@ -233,9 +241,32 @@ p4{
 }
 
 footer{
-  padding:40px 40px;
-  padding-bottom: 20px;
-  
+  padding:-100px;
+  margin: -150px;
+}
+
+footer h2{
+    display: block;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 50px;
+    -webkit-margin-end: 50px;
+
+}
+
+footer p1{
+  display: block;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 5em;
+    -webkit-margin-start: 50px;
+    -webkit-margin-end: 50px;
+}
+
+footer p5{
+    text-indent: 20px;
+    -webkit-margin-start: 50px;
+
+
 }
 
 footer ul{
@@ -247,5 +278,5 @@ footer ul{
 
 footer ul li{
   display:inline-block;
-  margin:0 2px;
+  margin:0 5px;
 }
